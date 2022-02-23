@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="100mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2212.78 2212.78"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil4 {fill:#FEFEFE}
+    .fil0 {fill:#014192}
+    .fil2 {fill:#DC001A}
+    .fil1 {fill:#F7F7F7}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M1106.39 0c611.04,0 1106.39,495.35 1106.39,1106.39 0,611.04 -495.35,1106.39 -1106.39,1106.39 -611.04,0 -1106.39,-495.35 -1106.39,-1106.39 0,-611.04 495.35,-1106.39 1106.39,-1106.39z"/>
+   </clipPath>
+   <mask id="id1">
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="1028.98" y1="1459.69" x2="1028.99" y2="125.58">
+   <stop offset="0" style="stop-opacity:0; stop-color:white"/>
+   <stop offset="0.341176" style="stop-opacity:0.501961; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id2)" x="156.16" y="63.63" width="1900.46" height="1258.32"/>
+   </mask>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_1683614461456">
+    <rect class="fil0" transform="matrix(1.93453E-14 -0.730438 0.690523 1.82882E-14 -3.09228E-11 2212.78)" width="3029.38" height="1068.16"/>
+    <rect class="fil1" transform="matrix(1.93453E-14 -0.730438 0.690523 1.82882E-14 737.592 2212.78)" width="3029.38" height="1068.16"/>
+    <rect class="fil2" transform="matrix(1.93453E-14 -0.730438 0.690523 1.82882E-14 1475.18 2212.78)" width="3029.38" height="1068.16"/>
+   </g>
+  </g>
+  <path class="fil3" d="M1106.39 0c611.04,0 1106.39,495.35 1106.39,1106.39 0,611.04 -495.35,1106.39 -1106.39,1106.39 -611.04,0 -1106.39,-495.35 -1106.39,-1106.39 0,-611.04 495.35,-1106.39 1106.39,-1106.39z"/>
+  <path class="fil4" style="mask:url(#id1)" d="M1106.39 65.84c523.57,0 948.02,408.77 948.02,755.02 0,346.25 -424.44,498.87 -948.02,498.87 -523.57,0 -948.02,-152.62 -948.02,-498.87 0,-346.25 424.44,-755.02 948.02,-755.02z"/>
+ </g>
+</svg>

@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elena GRONDIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="face3.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Exo+2:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@100;300;600&family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+<div class="center panel__img-col">
+    <img id="logoOne" class="panel__img" src="like.svg" alt="icon">
+</div>
+<a class="center fleche" href="#next">
+    <img class="btnFleche" src="fleche-bas.svg" alt="icon">
+</a>
+<div class="center containerLangues">
+    <div class="center langues">
+        <button id="btnEn">en</button>
+        <button id="btnRu">ru</button>
+        <button id="btnFr">fr</button>
+    </div>
+</div>
+<div class="landingpage containerImg" id="home">
+        <img class="seven panel__img-col" src="hh.svg" alt="hh">
+        <img class="two panel__img-col" src="laptop1.png" alt="laptop">
+        <img class="one panel__img-col" src="koala.svg" alt="koala">
+        <img class="three panel__img-col" src="lampe.png" alt="lampe">
+        <img class="four panel__img-col" src="smart.png" alt="phone">
+        <img class="five panel__img-col" src="tea.png" alt="tea">
+        <img class="six panel__img-col" src="heart.svg" alt="heart">
+        
+
+        <canvas class="center"></canvas>
+
+        <div class="wrapper">
+            <div class="panel">
+                    <div class="panel__content">
+
+                        <h1 class="panel__title center grondin"><span>Elena &nbsp</span> GRONDIN</h1>
+                        <h1 class="panel__title center graphiste" id="designerDev">Développeuse WEB & Graphiste.</h1>
+                        
+                        <div class="panel__line center" ></div>
+                    </div>
+            </div>
+        </div>
+        
+
+</div>
+
+<section id="next">
+
+        <nav  id="myNav" class="topnav ">
+            <a class="item start" href="#home" onclick="myFunctionMobile()">Elena GRONDIN</a>
+            <div id="hidden">
+                <div id="myLinks">
+                    <a class="item moi" href="#moi" onclick="myFunctionMobile()">Moi</a>
+                    <a class="item applications" href="#portfolio" onclick="myFunctionMobile()">APPLICATIONS</a>
+                    <a class="item web" href="#sites" onclick="myFunctionMobile()">SITES WEB</a>
+                    <a class="item logos" href="#logos" onclick="myFunctionMobile()">LOGOS</a>
+                    <a class="item flyer" href="#flyer" onclick="myFunctionMobile()">FlYER/MENU</a>
+                    <a class="item tarifs" href="#tarifs" onclick="myFunctionMobile()">Tarifs</a>
+                    <a class="item contacter" href="#contact" onclick="myFunctionMobile()">Contact</a>
+                    <a class="item activ compter" href="#compteur" onclick="myFunctionMobile()">Compteur de visites</a>
+                </div>
+            </div>
+            <!--
+            <div>
+                <a class="icon" href="javascript:void(0);" onclick="myFunctionMobilePlus()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+        -->
+        <div class="burger">
+            <div class="containerburger" onclick="myFunctionMobilePlus()">
+                <div class="stick stick-1"></div>
+                <div class="stick stick-2"></div>
+                <div class="stick stick-3"></div>
+            </div>
+        </div>
+        </nav>
+</section>
+
+<section id="moi">
+
+<div class="column" >
+    <img class="flyOne" src="avion.svg" alt="avion" height="60px" >
+    <div class="center">
+        <img id="logo" class="espace" src="face3.svg" alt="icon" data-aos="fade-up">
+    </div>
+    <img class="fly" src="dirigable.svg" alt="avion" height="40px" >
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <div id="myModalTwo" class="modal">
+        <div class="modal-contentTwo">
+            <span class="closeTwo">&times;</span>
+        </div>
+    </div>
+
+    <div class="center">
+        <p class="hello">
+            <span
+                class="txt-rotate"
+                data-period="2000"
+                data-rotate='[ "Hello! I’m Lena.", "Bonjour! Je suis Léna.", "Привет! Меня зовут Лена."]'></span>
+        </p>
+    </div>
+    <div class="center">
+        <p class="travail" data-aos="fade-up">Je suis designer indépendant - développeuse WEB et graphiste. Je crée des jolies sites internet, des logos, des affiches et des plaquettes. Et j'adore mon travail!</p>
+    </div>
+    <div class="center">
+        <a href="certificats.html" target="_blank">
+            <p class="par linelink" data-aos="fade-up">Voir mes certificats ici.</p>
+        </a>
+    </div>
+    <div class="center" >
+        <a  class="cta" id="ctt">
+            <span class="btnNext meContacter">Me contacter</span>
+            <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+        </a>
+    </div>
+    <br> <br>
+    <form class="hiddenform column"
+    action="https://formspree.io/f/xgerzrno"
+    method="POST"
+    >
+    <div class="center">
+        <img src="no-icon2.svg" alt="icon" width="30px" height="30px" id="fermer">
+    </div>
+    <br>
+    <label class="hiddenlabel column par"><span class="hiddenlabelmail">Votre email:</span>
+        
+        <input type="email" name="_replyto" class="hiddeninput">
+    </label>
+    <label class="hiddenlabel column par"><span class="hiddenlabelmessage">Votre message:</span>
+        
+        <textarea name="message" class="hiddeninput"></textarea>
+    </label>
+
+    
+
+    <button type="submit" class="btnTransp">
+        <div class="center">
+            <a  class="cta" id="ctt">
+                <span class="btnNext envoyer">Envoyer</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+        </div>
+    </button>
+    </form>
+</div>
+
+
+</section>
+
+<div class="center bg1"></div>
+
+    <div class="column block" data-aos="fade-up">
+        <p class="razdel mesApplications">Mes Applications</p>
+        <p class="travail faciliter" data-aos="fade-up">Pour faciliter la vie.</p>
+    </div>
+
+<section id="portfolio" >
+
+        <div class="grid">
+
+            
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="1.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName un">Calculatrice</span> <span class="secondName unUn">TVA</span></h2>
+                    <p class="unPar">Simple et efficace</p>
+                    <a href="https://tva.glitch.me/" class="sitelink" target="_blank"></a>
+                </figcaption>			
+            </figure>
+            
+
+            
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="2.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName deux">Shopping</span>  <span class="secondName deuxDeux">List</span></h2>
+                    <p class="deuxPar">Pour rien oublier</p>
+                    <a href="https://foil-navy-echo.glitch.me/" class="sitelink" target="_blank"></a>
+                </figcaption>	
+            </figure>
+        </div>
+
+        <div class="grid">
+            
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="7.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName trois">COUNTDOWN</span>  <span class="secondName troisTrois">Éclipse</span></h2>
+                    <p class="troisPar">12 août 2026</p>
+                    <a href="https://eclipse-countdown.glitch.me/" class="sitelink" target="_blank"></a>
+                </figcaption>			
+            </figure>
+        
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="6.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName quatre">Météo</span>  <span class="secondName quatreQuatre">now</span></h2>
+                    <p class="quatrePar">En temp réel</p>
+                    <a href="https://meteo-meteo.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+        </div>
+
+        
+
+        <div class="grid">
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="5.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName cinq">Phrase</span>  <span class="secondName cinqCinq">du jour</span></h2>
+                    <p class="cinqPar">Trouver la motivation</p>
+                    <a href="https://phrase.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="8.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName sixx">Minuteur de</span>  <span class="secondName sixxSixx">cuisine</span></h2>
+                    <p class="sixPar">Réussir de bons petits plats</p>
+                    <a href="https://set-timer.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+        </div>
+
+        <div class="grid">
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="9.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName sept">Relaxation</span>  <span class="secondName septSept">Méditation</span></h2>
+                    <p class="septPar1">VAGUES</p>
+                    <p class="septPar2">PLUIE</p>
+                    <p class="septPar3">NATURE</p>
+                    <a href="https://vagues.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="10.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName huit">Tea</span>  <span class="secondName huitHuit">Time</span></h2>
+                    <p class="huitPar">Minuteur pour les amateurs de thé</p>
+                    <a href="https://t-time.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+        </div>
+
+        <div class="grid">
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="3.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName neuf">Prédiction du</span>  <span class="secondName neufNeuf">Jour</span></h2>
+                    <p class="neufPar">Faire confiance à l'univers</p>
+                    <a href="https://astrolog.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="4.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName dix">Quiz</span>  <span class="secondName dixDix">Minute</span></h2>
+                    <p class="dixPar">Tester ses connaissances</p>
+                    <a href="https://quizminute.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+        </div>
+
+        <div class="grid">
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="11.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName onze">Évènement</span>  <span class="secondName onzeOnze">COUNTDOWN</span></h2>
+                    <p class="onzePar">Pour ne pas oublier</p>
+                    <a href="https://countdown-rose.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="12.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName douze">Calculatrice de</span>  <span class="secondName douzeDouze">SOLDES</span></h2>
+                    <p class="douzePar">Shopping facile</p>
+                    <a href="https://solde.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+        </div>
+
+        <div class="grid">
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="13.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName treize">Recettes de</span>  <span class="secondName treizeTreize">Mamie</span></h2>
+                    <p class="treizePar">Retrouver le goût de l'enfance</p>
+                    <a href="https://recettes-joelle.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="14.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName quatze">Ideés de</span>  <span class="secondName quatzeQuatze">recettes</span></h2>
+                    <p class="quatorzePar">Pour faciliter le choix</p>
+                    <a href="https://diner-idea.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+        </div>
+
+</section>
+
+
+<div class="column block" data-aos="fade-up">
+    <p class="razdel webRazdel">Sites WEB</p>
+    <p class="travail webTravail" data-aos="fade-up">Vous avez besoin un jolie site internet parfaitement adapté au smartphone? C'est avec plaisir!</p>
+</div>
+<section id="sites">
+
+
+        <div class="grid">
+
+            
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="15.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName quinze">Restaurant</span>  <span class="secondName quinzeQuinze">THAЇ</span></h2>
+                    <p class="quinzePar">Augmentez la visibilité</p>
+                    <a href="https://thaibox.glitch.me/" class="sitelink" target="_blank"></a>
+                </figcaption>			
+            </figure>
+            
+
+            
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="16.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName seize">Restaurant</span>  <span class="secondName seizeSeize">Marocain</span></h2>
+                    <p class="seizePar">Présentez la nouvelle carte</p>
+                    <a href="https://touareg.glitch.me/" class="sitelink" target="_blank"></a>
+                </figcaption>	
+            </figure>
+        </div>
+
+        <div class="grid">
+            
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="17.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName dixsept">Cabinet</span>  <span class="secondName dixseptDixsept">d'avocats</span></h2>
+                    <p class="dixseptPar">Moderniser votre image</p>
+                    <a href="https://flawless-adaptable-aragosaurus.glitch.me/" class="sitelink" target="_blank"></a>
+                </figcaption>			
+            </figure>
+        
+            <figure class="effect-julia" data-aos="fade-up">
+                <img src="18.jpg" alt="img">
+                <figcaption>
+                    <h2 class="appliName"><span class="appliName dixhuit"> Créateur de</span> <span class="secondName dixhuitDixhuit">cuisine</span></h2>
+                    <p class="dixhuitPar">Attirer de nouveaux clients</p>
+                    <a href="https://warm-trail-alder.glitch.me/" class="sitelink" target="_blank">View more</a>
+                </figcaption>			
+            </figure>
+        </div>
+
+</section>
+
+<div class="center bg1"></div>
+
+<div class="column block" data-aos="fade-up">
+    <p class="razdel logosRazdel">Logos</p>
+    <p class="travail logosTravail" data-aos="fade-up">Création des logos - c'est ma passion!</p>
+</div>
+<section id="logos">
+
+    <div class="gridlogo">
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo1.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoUn">Breizhole Club Quimperois</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo2.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoDeux">Boutique de jeux vidéo</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo3.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoTrois">Fournisseur d'Electricité</h2>
+            </figcaption>			
+        </figure>
+    </div>
+
+
+    <div class="gridlogo">
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo19.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoQuatre">Fête nationale</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo17.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoCinq">Ecole en ligne</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo21.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoSix">Boutique en ligne</h2>
+            </figcaption>			
+        </figure>
+    </div>
+
+
+    <div class="gridlogo">
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo4.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoSept">Boutique en ligne</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo5.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoHuit">Marché</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo8.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoNeuf">Restaurant traditionel</h2>
+            </figcaption>			
+        </figure>
+    </div>
+
+
+    <div class="gridlogo">
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo6.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoDix">Applications mobile musique</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo7.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoOnze">Boutique de mode</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo9.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoDouze">Magasin de jouets</h2>
+            </figcaption>			
+        </figure>
+    </div>
+
+
+    <div class="gridlogo">
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo12.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoTreize">Laboratoire</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo14.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoQuatorze">Fabricant de fenêtres</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo13.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoQuinze">Bureau de traduction</h2>
+            </figcaption>			
+        </figure>
+    </div>
+
+
+    <div class="gridlogo">
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo10.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoSeize">Ecole de dance</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo11.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoDixsept">Livrason de repas</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="logo15.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName logoDixhuit">Boutique</h2>
+            </figcaption>			
+        </figure>
+    </div>
+
+</section>
+
+
+<div class="column block" data-aos="fade-up">
+    <p class="razdel flyerRazdel">FLYER / MENU</p>
+    <p class="travail flyerTravail" data-aos="fade-up">Element essentiel pour votre restaurant.</p>
+</div>
+
+<section id="flyer">
+
+    <div class="gridlogo">
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="menu1.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName flyerUn">Restaurant russe</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="menu2.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName flyerDeux">Restaurant Thaï</h2>
+            </figcaption>			
+        </figure>
+        <figure class="effect-julia2" data-aos="fade-up">
+            <img src="menu3.jpg" alt="img">
+            <figcaption>
+                <h2 class="appliName flyerTrois">Affiche de festival</h2>
+            </figcaption>			
+        </figure>
+    </div>
+
+</section>
+
+<div class="center bg1"></div>
+
+<div class="column block" data-aos="fade-up">
+    <p class="razdel tarifsRazdel">Tarifs</p>
+    <p class="travail tarifsTravail" data-aos="fade-up">Commençons votre projet.</p>
+</div>
+
+<section id="tarifs">
+
+    <div class="gridlogo">
+
+        <div class="tarifblock" data-aos="fade-up">
+            <h3 class="headPriceUn">Site WEB Simple</h3>
+            <h4> <span class="startfrom startfromUn">à partir de</span>  <span class="prix prixUn">500€</span></h4>
+            <p class="tarifparUn1">Site vitrine - 1 page</p>
+            <p class="tarifparUn2">Adapté au mobile</p>
+            <p class="tarifparUn3">Accompagnement</p>
+            <p class="tarifparUn4">Création en 4 jours</p>
+            <div class="center">
+                <a href="mailto:elena.flea@gmail.com"  class="cta" id="ctt">
+                    <span class="btnNext comUn">Commander</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="tarifblock" data-aos="fade-up">
+            <h3 class="headPriceDeux">Site WEB Complexe</h3>
+            <h4><span class="startfrom startfromDeux">à partir de </span> <span class="prix prixDeux">800€</span></h4>
+            <p class="tarifparDeux1">Integration E-commerce</p>
+            <p class="tarifparDeux2">Adapté au mobile</p>
+            <p class="tarifparDeux3">Aide avec hébergement web</p>
+            <p class="tarifparDeux4">Création en 10-30 jours</p>
+            <div class="center">
+                <a href="mailto:elena.flea@gmail.com"  class="cta" id="ctt">
+                    <span class="btnNext comDeux">Commander</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="tarifblock" data-aos="fade-up">
+            <h3 class="headPriceTrois">LOGO</h3>
+            <h4><span class="startfrom startfromTrois">à partir de</span>  <span class="prix prixTrois">100€</span></h4>
+            <p class="tarifparTrois1">Minimum 3 Propositions</p>
+            <p class="tarifparTrois2">Modifications/Retouches</p>
+            <p class="tarifparTrois3">Les fichier Sources vector + PNG</p>
+            <p class="tarifparTrois4">Création en 5 jours</p>
+            <div class="center">
+                <a href="mailto:elena.flea@gmail.com"  class="cta" id="ctt">
+                    <span class="btnNext comTrois">Commander</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="gridlogo">
+
+        <div class="tarifblock" data-aos="fade-up">
+            <h3 class="headPriceQuatre">Flyer / Menu</h3>
+            <h4><span class="startfrom startfromQuatre">à partir de</span>  <span class="prix prixQuatre">60€</span></h4>
+            <p class="tarifparQuatre1">1-2 Propositions</p>
+            <p class="tarifparQuatre2">Modifications/Retouches</p>
+            <p class="tarifparQuatre3">Format PDF</p>
+            <p class="tarifparQuatre4">Création en 3 jours</p>
+            <div class="center">
+                <a href="mailto:elena.flea@gmail.com"  class="cta" id="ctt">
+                    <span class="btnNext comQuatre">Commander</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="tarifblock" data-aos="fade-up">
+            <h3 class="headPriceCinq">Cartes de visite</h3>
+            <h4><span class="prix prixCinq">25€</span></h4>
+            <p class="tarifparCinq1">Minimum 3 Propositions</p>
+            <p class="tarifparCinq2">Modifications/Retouches</p>
+            <p class="tarifparCinq3">Format PDF</p>
+            <p class="tarifparCinq4">Création en 1 journée</p>
+            <div class="center">
+                <a href="mailto:elena.flea@gmail.com"  class="cta" id="ctt">
+                    <span class="btnNext comCinq">Commander</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="tarifblock" data-aos="fade-up">
+            <h3 class="headPriceSix">Retouche PHOTO</h3>
+            <h4><span class="startfrom startfromSix">à partir de</span>  <span class="prix prixSix">30€</span></h4>
+            <p class="tarifparSix1">Mes presets</p>
+            <p class="tarifparSix2">Modifications</p>
+            <p class="tarifparSix3">Les fichier Sources</p>
+            <p class="tarifparSix4">Création: 1-5 jours</p>
+            <div class="center">
+                <a href="mailto:elena.flea@gmail.com"  class="cta" id="ctt">
+                    <span class="btnNext comSix">Commander</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="center bg1"></div>
+
+<div class="column block" data-aos="fade-up">
+    <p class="razdel"></p>
+    <p class="travail contactTravail" data-aos="fade-up">Je suis à votre disposition pour répondre à vos questions ou toute demande d’informations.</p>
+    <div class="center" >
+        <a  class="cta" id="ctt2">
+            <span class="btnNext meContacter2">Me contacter</span>
+            <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+        </a>
+    </div>
+    <br> <br>
+    <form class="hiddenform2 column"
+    action="https://formspree.io/f/xgerzrno"
+    method="POST"
+    >
+    <div class="center">
+        <img src="icon-no.png" alt="icon" width="30px" height="30px" id="fermer2">
+    </div>
+    <br>
+    <label class="hiddenlabel column par"> <span class="hiddenlabelmail2">Votre email:</span>
+        
+        <input type="email" name="_replyto" class="hiddeninput">
+    </label>
+    <label class="hiddenlabel column par"><span class="hiddenlabelmessage2">Votre message:</span>
+        
+        <textarea name="message" class="hiddeninput"></textarea>
+    </label>
+
+    
+
+    <button type="submit" class="btnTransp">
+        <div class="center">
+            <a  class="cta" id="ctt">
+                <span class="btnNext envoyer2">Envoyer</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10" class="clckme">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+        </div>
+    </button>
+    </form>
+
+</div>
+
+<section id="contact">
+
+    <div class="column">
+
+        <a href="tel:+33781205401" class="text-white text-decoration-none fs-5" target="blank" data-aos="fade-down">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill m-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+                +33 7 81 20 54 01
+        </a>
+        <a href="mailto:elena.flea@gmail.com" class="text-white text-decoration-none fs-5" target="blank" data-aos="fade-down">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill m-2" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+                elena.flea@gmail.com
+        </a>
+        <div class="sotiallinks">
+            <a href="https://wa.me/33781205401" class="text-white" target="blank" data-aos="fade-down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp m-2" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                </svg>
+            </a> 
+
+            <a href="https://www.instagram.com/elena.grondin/?hl=fr" class="text-white" target="blank" data-aos="fade-down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram m-2" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+            </a>
+
+            <a href="https://linkedin.com/in/elena-grondin-683aa3198" class="text-white" target="blank" data-aos="fade-down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+            </a>
+
+            <a href="https://github.com/elenaflea" class="text-white" target="blank" data-aos="fade-down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+
+<section id="compteur" class="column">
+    <br>
+    
+        <div class="mappyOne center">
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=X8QqoSYRG8P53SEUOnZW5zSjFskvIjHfsbgSVKBCWd0"></script>
+        </div>
+            <div class="mappy">
+            <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=X8QqoSYRG8P53SEUOnZW5zSjFskvIjHfsbgSVKBCWd0&co=000000&cmn=67e6bc&cmo=fc53ff"></script>
+        </div>
+    
+ <!--   <div id="visits" class="center">...</div>
+    
+    <hr class="line" ></hr>
+    -->
+    <br> <br>
+    <p class="footerPar">ELENA GRONDIN ©2021</p>
+</section> 
+
+<div id="cursor"></div>
+
+
+<script async src="https://api.countapi.xyz/hit/grondin.glitch.me/visits?callback=cb"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://codepen.io/petebarr/pen/2fc0573674b0f849badd58a15371534e"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

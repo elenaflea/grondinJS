@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="100mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2445.88 2445.88"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil4 {fill:#FEFEFE}
+    .fil1 {fill:#0037A1}
+    .fil2 {fill:#CE2A1D}
+    .fil0 {fill:#F7F7F7}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M1222.94 0c675.41,0 1222.94,547.53 1222.94,1222.94 0,675.41 -547.53,1222.94 -1222.94,1222.94 -675.41,0 -1222.94,-547.53 -1222.94,-1222.94 0,-675.41 547.53,-1222.94 1222.94,-1222.94z"/>
+   </clipPath>
+   <mask id="id1">
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="1416.61" y1="1572.68" x2="442.68" y2="465.41">
+   <stop offset="0" style="stop-opacity:0; stop-color:white"/>
+   <stop offset="0.341176" style="stop-opacity:0.501961; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id2)" x="73.78" y="72.87" width="1832.79" height="1748.23"/>
+   </mask>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_1682800036192">
+    <rect class="fil0" width="2445.88" height="815.29"/>
+    <rect class="fil1" y="815.29" width="2445.88" height="815.29"/>
+    <rect class="fil2" y="1630.58" width="2445.88" height="815.29"/>
+   </g>
+  </g>
+  <path class="fil3" d="M1222.94 0c675.41,0 1222.94,547.53 1222.94,1222.94 0,675.41 -547.53,1222.94 -1222.94,1222.94 -675.41,0 -1222.94,-547.53 -1222.94,-1222.94 0,-675.41 547.53,-1222.94 1222.94,-1222.94z"/>
+  <path class="fil4" style="mask:url(#id1)" d="M463.3 359.33c434.55,-382.23 1085.23,-352.82 1338,-65.45 252.78,287.38 11.92,723.9 -422.62,1106.13 -434.55,382.22 -898.23,565.41 -1151.01,278.04 -252.78,-287.38 -198.92,-936.49 235.63,-1318.72z"/>
+ </g>
+</svg>
