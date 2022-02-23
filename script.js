@@ -385,6 +385,10 @@ const dixsept = document.querySelector(".dixsept");
 const dixseptDixsept = document.querySelector(".dixseptDixsept");
 const dixhuit = document.querySelector(".dixhuit");
 const dixhuitDixhuit = document.querySelector(".dixhuitDixhuit");
+const dixneuf = document.querySelector(".dixneuf");
+const dixneufDixneuf = document.querySelector(".dixneufDixneuf");
+const vingt = document.querySelector(".vingt");
+const vingtVingt = document.querySelector(".vingtVingt");
 
 const unPar = document.querySelector(".unPar");
 const deuxPar = document.querySelector(".deuxPar");
@@ -406,6 +410,8 @@ const quinzePar = document.querySelector(".quinzePar");
 const seizePar = document.querySelector(".seizePar");
 const dixseptPar = document.querySelector(".dixseptPar");
 const dixhuitPar = document.querySelector(".dixhuitPar");
+const dixneufPar = document.querySelector(".dixneufPar");
+const vingtPar = document.querySelector(".vingtPar");
 
 const logoUn = document.querySelector(".logoUn");
 const logoDeux = document.querySelector(".logoDeux");
@@ -533,6 +539,10 @@ btnRu.addEventListener("click", () => {
     treizeTreize.textContent= "рецепты";
     quatze.textContent= "идея для";
     quatzeQuatze.textContent= "ужина";
+    dixneuf.textContent= "анимация";
+    dixneufDixneuf.textContent= "hi";
+    vingt.textContent= "5 минут для";
+    vingtVingt.textContent= "мамы";
 
     unPar.textContent= "простой и понятный";
     deuxPar.textContent= "ничего не забыть";
@@ -554,6 +564,8 @@ btnRu.addEventListener("click", () => {
     seizePar.textContent= "представить новое меню";
     dixseptPar.textContent= "обновить стиль";
     dixhuitPar.textContent= "привлечь новых клиентов";
+    dixneufPar.textContent= "свободное использование";
+    vingtPar.textContent= "занять детей";
     
     webRazdel.textContent = "САЙТЫ";
     webTravail.textContent= "Нужен красивый сайт с классной мобильной версией? Сделаю с удовольствием!";
@@ -700,6 +712,10 @@ btnEn.addEventListener("click", () => {
     treizeTreize.textContent= "recipes";
     quatze.textContent= "dinner";
     quatzeQuatze.textContent= "idea";
+    dixneuf.textContent= "animation";
+    dixneufDixneuf.textContent= "hi";
+    vingt.textContent= "5 minuts for";
+    vingtVingt.textContent= "mom";
 
     unPar.textContent= "simple and efficient";
     deuxPar.textContent= "forget nothing";
@@ -721,6 +737,8 @@ btnEn.addEventListener("click", () => {
     seizePar.textContent= "Present the new menu";
     dixseptPar.textContent= "new image";
     dixhuitPar.textContent= "bring in new customers";
+    dixneufPar.textContent= "free use";
+    vingtPar.textContent= "children busy";
 
     webRazdel.textContent = " WEB SITES";
     webTravail.textContent= "Looking for a beautiful website with a cool mobile version? With a pleasure!";
@@ -867,6 +885,10 @@ btnFr.addEventListener("click", () => {
     treizeTreize.textContent= "mamie";
     quatze.textContent= "Ideés de";
     quatzeQuatze.textContent= "recettes";
+    dixneuf.textContent= "animation";
+    dixneufDixneuf.textContent= "hi";
+    vingt.textContent= "5 minutes pour";
+    vingtVingt.textContent= "maman";
 
     unPar.textContent= "Simple et efficace";
     deuxPar.textContent= "Pour rien oublier";
@@ -888,6 +910,8 @@ btnFr.addEventListener("click", () => {
     seizePar.textContent= "Présentez la nouvelle carte";
     dixseptPar.textContent= "Moderniser votre image";
     dixhuitPar.textContent= "Attirer de nouveaux clients";
+    dixneufPar.textContent= "libre utilisation";
+    vingtPar.textContent= "occuper les enfants";
 
     webRazdel.textContent = "SITES WEB";
     webTravail.textContent= "Vous avez besoin un jolie site internet parfaitement adapté au smartphone? C'est avec plaisir!";
